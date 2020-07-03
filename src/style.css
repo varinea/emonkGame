@@ -1,0 +1,25 @@
+*{
+	margin:10px;
+	padding: 10px;
+	box-sizing: border-box;
+	/* text-align: center; */
+}
+
+.father {
+    display: flex;
+      flex-flow: column nowrap;
+      /* width: 50%; */
+      /* max-width: 1100px; */
+      margin: auto;
+      align-items: center;
+}
+
+.emonkLogin {
+  width: 20%;
+  align-items: center;
+}
+
+.emonk{
+  width: 20%;
+  margin: 0% 2% 0% 65%;
+}
