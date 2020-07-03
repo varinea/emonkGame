@@ -15,26 +15,19 @@
   <div id="container">
     <img class="emonk" src="../public/img/logo.png">
     <div class="container">
-      <h1 class="display-4">Bienvenidx a EmonkGame</h1>
+      <h1 class="display-3">Bienvenidx a EmonkGame</h1>
 
-      <h2 class="display-4">Como Jugar</h2>
-      <p class="lead">
-        Ingresar un número del 1 al 10.
-      </p>
-      <p class="lead">
-        Si tu número elegido corresponde a un número par, gana el jugador que tenga un número más alto
-      </p>
-      <p class="lead">
-        Si tu número elegido corresponde a un número impar, gana el jugador que tenga un número más bajo.
-      </p>
+      <h3 class="display-4">Como Jugar</h3>
+      <p class="lead">Ingresar un número del 1 al 10.</p>
+      <p class="lead">Si tu número elegido corresponde a un número par, gana el jugador que tenga un número más alto</p>
+      <p class="lead">Si tu número elegido corresponde a un número impar, gana el jugador que tenga un número más bajo.</p>
 
       <input type="text" id="ingNum" placeholder="Danos un número 1 al 10" maxlength="2">
 
-
       <button type="button" onclick="getNum()" id="botonUno">Jugar</button>
 
-      <h1 id="nuResult_User" type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></h1>
-      <h2 id="nuResult_virtual" type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></h2>
+      <h1 type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></h1>
+      <h2 type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></h2>
       <h2 id="empate" type="text" placeholder="Resultado" readonly="readonly" rows="5" cols="30"></h2>
 
       <p id="resulOne"></p>
