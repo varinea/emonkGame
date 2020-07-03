@@ -3,7 +3,7 @@
 
 MiniJuego para reto Emonk
 
-# Objetivo del Usuario 🙋🏼
+# Objetivo del Usuario 🙋
 
  Ingresar un número del 1 al 10.
 
